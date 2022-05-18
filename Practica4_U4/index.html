@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="/Practica4_U4/form.php" method="post">
+        <table aling="center">
+            <tr>
+                <td>Nombre</td>
+                <td><input type="text" name="nombre" placeholder="Escribe tu nombre" required></td>
+            </tr>
+            <tr>
+                <td>E-Mail</td>
+                <td><input type="email" name="email" placeholder="Aqui@tucorreo.com" required></td>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td><input type="number" name="edad" placeholder="Escribe tu edad" required></td>
+            </tr>
+            <tr>
+                <td>Fecha</td>
+                <td><input type="date" name="fecha" placeholder="Escribe la fecha" required></td>
+            </tr>
+                <td>Mensaje:</td>
+                <td><textarea cols="17" rows="8" name="mensaje" required></textarea></td>
+            <tr>
+                <td><input type="submit" name="boton" value="Enviar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
